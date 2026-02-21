@@ -8,7 +8,7 @@ export default async function handler(req, res) {
 
   // 2. Ambil token dari query parameter (contoh: ?token=...)
   const { token } = req.query;
-  const validToken = process.env.API_URL; // dari environment variable Vercel
+  const validToken = process.env.API_TOKEN; // dari environment variable Vercel
 
   // 3. Validasi token
   if (!token || token !== validToken) {
