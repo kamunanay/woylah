@@ -1,0 +1,9 @@
+{
+  "name": "api-email",
+  "version": "1.0.0",
+  "description": "API pengirim email untuk bot Telegram",
+  "type": "module",
+  "dependencies": {
+    "nodemailer": "^6.9.15"
+  }
+}
